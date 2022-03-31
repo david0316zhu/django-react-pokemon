@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-v-(1)#*kw1!4-v#_=vx!q164#=uz*urtdj85815cl$5c(7w2ie'
+SECRET_KEY = [SECRET_KEY}
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -82,8 +82,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'pokemonweb',
-        'USER': 'postgres',
-        'PASSWORD': 'apscwinsac',
+        'USER': '[USERNAME]',
+        'PASSWORD': '[PASSWORD]',
         'HOST': 'localhost'
     }
 }
@@ -110,8 +110,8 @@ AUTH_PASSWORD_VALIDATORS = [
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST ='smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "pokemon.django.01@gmail.com"
-EMAIL_HOST_PASSWORD = 'nhtqajgismrhlxch'
+EMAIL_HOST_USER = "EMAIL"
+EMAIL_HOST_PASSWORD = 'HOST_PASSWORD'
 EMAIL_USE_TLS = True
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
